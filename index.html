@@ -5,8 +5,8 @@
     <title>Flashcards</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <script src="scripts.js"></script>
-    <script src="jquery-3.1.1.js"></script>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
   </head>
   <body>
     <div class="container">
@@ -14,48 +14,200 @@
       <div class="row">
         <div class="col-md-5">
           <ul>
-            <li><button class="btn btn-info" id="button0">JavaScript</button></li>
-            <li><button class="btn btn-info" id="button1">Operators</button></li>
-            <li><button class="btn btn-info" id="button2">Variables</button></li>
-            <li><button class="btn btn-info" id="button3">Variable naming conventions</button></li>
-            <li><button class="btn btn-info" id="button4">Functions</button></li>
-            <li><button class="btn btn-info" id="button5">Methods</button></li>
-            <li><button class="btn btn-info" id="button6">Arguments</button></li>
-            <li><button class="btn btn-info" id="button7">Parameters</button></li>
-            <li><button class="btn btn-info" id="button8">Return</button></li>
-            <li><button class="btn btn-info" id="button9">Chaining methods</button></li>
-            <li><button class="btn btn-info" id="button10">Strings</button></li>
-            <li><button class="btn btn-info" id="button11">Booleans</button></li>
-            <li><button class="btn btn-info" id="button12">Undefined</button></li>
-            <li><button class="btn btn-info" id="button13">NaN</button></li>
-            <li><button class="btn btn-info" id="button14">Escape</button></li>
-            <li><button class="btn btn-info" id="button15">Alert</button></li>
-            <li><button class="btn btn-info" id="button16">Comments</button></li>
-            <li><button class="btn btn-info" id="button17">jQuery</button></li>
-            <li><button class="btn btn-info" id="button18">Attributes</button></li>
+            <li>
+              <div class="def0-hidden">
+                <button class="btn btn-info" id="0">JavaScript</button>
+              </div>
+            </li>
+            <li>
+              <div class="def1-hidden">
+                <button class="btn btn-info" id="1">Operators</button>
+              </div>
+            </li>
+            <li>
+              <div class="def2-hidden">
+                <button class="btn btn-info" id="2">Variables</button>
+              </div>
+            </li>
+            <li>
+              <div class="def3-hidden">
+                <button class="btn btn-info" id="3">Variable naming conventions</button>
+              </div>
+            </li>
+            <li>
+              <div class="def4-hidden">
+                <button class="btn btn-info" id="4">Functions</button>
+              </div>
+            </li>
+            <li>
+              <div class="def5-hidden">
+                <button class="btn btn-info" id="5">Methods</button>
+              </div>
+            </li>
+            <li>
+              <div class="def6-hidden">
+                <button class="btn btn-info" id="6">Arguments</button>
+              </div>
+            </li>
+            <li>
+              <div class="def7-hidden">
+                <button class="btn btn-info" id="7">Parameters</button>
+              </div>
+            </li>
+            <li>
+              <div class="def8-hidden">
+                <button class="btn btn-info" id="8">Return</button>
+              </div>
+            </li>
+            <li>
+              <div class="def9-hidden">
+                <button class="btn btn-info" id="9">Chaining methods</button>
+              </div>
+            </li>
+            <li>
+              <div class="def10-hidden">
+                <button class="btn btn-info" id="10">Strings</button>
+              </div>
+            </li>
+            <li>
+              <div class="def11-hidden">
+                <button class="btn btn-info" id="11">Booleans</button>
+              </div>
+            </li>
+            <li>
+              <div class="def12-hidden">
+                <button class="btn btn-info" id="12">Undefined</button>
+              </div>
+            </li>
+            <li>
+              <div class="def13-hidden">
+                <button class="btn btn-info" id="13">NaN</button>
+              </div>
+            </li>
+            <li>
+              <div class="def14-hidden">
+                <button class="btn btn-info" id="14">Escape</button>
+              </div>
+            </li>
+            <li>
+              <div class="def15-hidden">
+                <button class="btn btn-info" id="15">Alert</button>
+              </div>
+            </li>
+            <li>
+              <div class="def16-hidden">
+                <button class="btn btn-info" id="16">Comments</button>
+              </div>
+            </li>
+            <li>
+              <div class="def17-hidden">
+                <button class="btn btn-info" id="17">jQuery</button>
+              </div>
+            </li>
+            <li>
+              <div class="def18-hidden">
+                <button class="btn btn-info" id="18">Attributes</button>
+              </div>
+            </li>
           </ul>
         </div>
         <div class="col-md-7">
           <ul>
-            <li><div id="def0">JavaScript is an object-oriented computer programming language commonly used to create interactive effects within web browsers.</div></li>
-            <li><div id="def1">An operator is a symbol that is used to perform an operation. Most often these operations are arithmetic (addition, subtraction, etc), but not always.</div></li>
-            <li><div id="def2">variables are containers for storing data values.</div></li>
-            <li><div id="def3">Have you ever noticed that every programming language seems to have its own set of naming conventions? While some languages have a lot in common, others just seem to exist in a world of their own. I'd like to share with you some naming conventions for JavaScript. Along the way, I'm going to interject some info on where various standards originate from and why they are important. In fact, let's start there.</div></li>
-            <li><div id="def4">A JavaScript function is a block of code designed to perform a particular task.</div></li>
-            <li><div id="def5">A JavaScript method is a property containing a function definition.</div></li>
-            <li><div id="def6">The arguments object is a local variable available within all functions.</div></li>
-            <li><div id="def7">Function parameters are the names listed in the function definition.</div></li>
-            <li><div id="def8">The return statement stops the execution of a function and returns a value from that function.</div></li>
-            <li><div id="def9">Method chaining is a technique that can be used to simplify code in scenarios that involve calling multiple functions on the same object consecutively.</div></li>
-            <li><div id="def10">A string is a text value</div></li>
-            <li><div id="def11">The Boolean object represents two values, either "true" or "false".</div></li>
-            <li><div id="def12">In JavaScript there is Undefined (type), undefined (value) and undefined (variable). Undefined (type) is a built-in JavaScript type. undefined (value) is a primitive and is the sole value of the Undefined type. Any property that has not been assigned a value, assumes the undefined value.</div></li>
-            <li><div id="def13">The isNaN() function determines whether a value is NaN or not. Note: coercion inside the isNaN function has interesting rules; you may alternatively want to use Number.isNaN() , as defined in ECMAScript 2015, or you can use typeof to determine if the value is Not-A-Number.</div></li>
-            <li><div id="def14">The escape() function encodes a string.</div></li>
-            <li><div id="def15">The alert() method displays an alert box with a specified message and an OK button. An alert box is often used if you want to make sure information comes through to the user.</div></li>
-            <li><div id="def16">avaScript comments can be used to explain JavaScript code, and to make it more readable.  JavaScript comments can also be used to prevent execution, when testing alternative code.</div></li>
-            <li><div id="def17">jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.</div></li>
-            <li><div id="def18">The attr() method sets or returns attributes and values of the selected elements.</div></li>
+            <li>
+              <div class="def0-visible">
+                <p>Javascript is an object-oriented computer programming language commonly used to create interactive effects within web browsers.</p>
+              </div>
+            </li>
+            <li>
+              <div class="def1-visible">
+                <p>An operator is a symbol that is used to perform an operation. Most often these operations are arithmetic (addition, subtraction, etc), but not always.</p>
+              </div>
+            </li>
+            <li>
+              <div class="def2-visible">
+                <p>variables are containers for storing data values.</p>
+              </div>
+            </li>
+            <li>
+              <div class="def3-visible">
+                <p>Have you ever noticed that every programming language seems to have its own set of naming conventions? While some languages have a lot in common, others just seem to exist in a world of their own. I'd like to share with you some naming conventions for JavaScript. Along the way, I'm going to interject some info on where various standards originate from and why they are important. In fact, let's start there.</p>
+              </div>
+            </li>
+            <li>
+              <div class="def4-visible">
+                <p>A JavaScript function is a block of code designed to perform a particular task.</p>
+              </div>
+            </li>
+            <li>
+              <div class="def5-visible">
+                <p>A JavaScript method is a property containing a function definition.</p>
+              </div>
+            </li>
+            <li>
+              <div class="def6-visible">
+                <p>he arguments object is a local variable available within all functions.</p>
+              </div>
+            </li>
+            <li>
+              <div class="def7-visible">
+                <p>Function parameters are the names listed in the function definition.</p>
+              </div>
+            </li>
+            <li>
+              <div class="def8-visible">
+                <p>The return statement stops the execution of a function and returns a value from that function.</p>
+              </div>
+            </li>
+            <li>
+              <div class="def9-visible">
+                <p>Method chaining is a technique that can be used to simplify code in scenarios that involve calling multiple functions on the same object consecutively.</p>
+              </div>
+            </li>
+            <li>
+              <div class="def10-visible">
+                <p>A string is a text value</p>
+              </div>
+            </li>
+            <li>
+              <div class="def11-visible">
+                <p>The Boolean object represents two values, either "true" or "false".</p>
+              </div>
+            </li>
+            <li>
+              <div class="def12-visible">
+                <p>In JavaScript there is Undefined (type), undefined (value) and undefined (variable). Undefined (type) is a built-in JavaScript type. undefined (value) is a primitive and is the sole value of the Undefined type. Any property that has not been assigned a value, assumes the undefined value.</p>
+              </div>
+            </li>
+            <li>
+              <div class="def13-visible">
+                <p>The isNaN() function determines whether a value is NaN or not. Note: coercion inside the isNaN function has interesting rules; you may alternatively want to use Number.isNaN() , as defined in ECMAScript 2015, or you can use typeof to determine if the value is Not-A-Number.</p>
+              </div>
+            </li>
+            <li>
+              <div class="def14-visible">
+                <p>The escape() function encodes a string.</p>
+              </div>
+            </li>
+            <li>
+              <div class="def15-visible">
+                <p>The alert() method displays an alert box with a specified message and an OK button. An alert box is often used if you want to make sure information comes through to the user.</p>
+              </div>
+            </li>
+            <li>
+              <div class="def16-visible">
+                <p>javaScript comments can be used to explain JavaScript code, and to make it more readable.  JavaScript comments can also be used to prevent execution, when testing alternative code.</p>
+              </div>
+            </li>
+            <li>
+              <div class="def17-visible">
+                <p>jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.</p>
+              </div>
+            </li>
+            <li>
+              <div class="def18-visible">
+                <p>The attr() method sets or returns attributes and values of the selected elements.</p>
+              </div>
+            </li>
           </ul>
 
         </div>
